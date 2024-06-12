@@ -6,7 +6,7 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
 	'icook.tw:2053#关注TG频道获取更多免费资源',
-	'cloudflare.cfgo.cc#TG频道：@MFJD666',
+	'cloudflare.cfgo.cc#TG频道：',
 ];
 
 // 设置优选地址api接口
@@ -616,7 +616,7 @@ export default {
 				if(proxyhosts && (host.includes('.workers.dev') || host.includes('pages.dev'))) {
 					最终路径 = `/${host}${path}`;
 					伪装域名 = proxyhosts[Math.floor(Math.random() * proxyhosts.length)];
-					节点备注 = `${EndPS}    请勿测速`;
+					节点备注 = `${EndPS} TG@MFJD666   请勿测速`;
 					sni = 伪装域名;
 				}
 
