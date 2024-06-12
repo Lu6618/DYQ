@@ -52,7 +52,7 @@ let proxyhosts = [//本地代理域名池
 	//'ppfv2tl9veojd-maillazy.pages.dev',
 ];
 let proxyhostsURL = 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/proxyhosts';//在线代理域名池URL
-let EndPS = 'TG@MFJD666';//节点名备注内容
+let EndPS = '  TG@MFJD666  请勿测速';//节点名备注内容
 let 协议类型 = 'VLESS';
 let FileName = 'TG@MFJD666';
 let SUBUpdateTime = 6; 
@@ -616,7 +616,7 @@ export default {
 				if(proxyhosts && (host.includes('.workers.dev') || host.includes('pages.dev'))) {
 					最终路径 = `/${host}${path}`;
 					伪装域名 = proxyhosts[Math.floor(Math.random() * proxyhosts.length)];
-					节点备注 = `${EndPS} TG@MFJD666   请勿测速`;
+					节点备注 = `${EndPS} `;
 					sni = 伪装域名;
 				}
 
