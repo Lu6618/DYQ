@@ -59,9 +59,7 @@ let SUBUpdateTime = 6;
 let total = 99;//PB
 //let timestamp = now;
 let timestamp = 4102329600000;//2099-12-31
-total = total * 1099511627776 ;
-		UD = 10240000000000;//就是上传下载都跑了1024字节
-       total = 1098412116148224;//就是总流量大小是2048字节
+total = total * 10995116277760 ;
 const regex = /^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}|\[.*\]):?(\d+)?#?(.*)?$/;
 // 虚假uuid和hostname，用于发送给配置生成服务
 let fakeUserID ;
