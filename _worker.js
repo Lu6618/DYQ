@@ -5,8 +5,8 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'icook.tw:2053#',
-	'cloudflare.cfgo.cc#',
+	//'icook.tw:2053#',
+	//'cloudflare.cfgo.cc#',
 ];
 
 // 设置优选地址api接口
@@ -52,7 +52,7 @@ let proxyhosts = [//本地代理域名池
 	//'ppfv2tl9veojd-maillazy.pages.dev',
 ];
 let proxyhostsURL = 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/proxyhosts';//在线代理域名池URL
-let EndPS = '  TG@MFJD666  请勿测速';//节点名备注内容
+let EndPS = '  ⚡️TG@MFJD666  请勿测速';//节点名备注内容
 let 协议类型 = 'TROJAN';
 let FileName = '';
 let SUBUpdateTime = 6; 
